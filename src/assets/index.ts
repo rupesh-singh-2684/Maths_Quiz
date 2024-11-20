@@ -10,8 +10,6 @@ const Icons = {
 
 const Images = {
     doneImage:require(`${pathToImages}/done.png`),
-  
-
 }
 
 const Videos = {

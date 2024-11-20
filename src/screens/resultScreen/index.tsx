@@ -8,7 +8,6 @@ const ResultScreen = ({ route, navigation }: any) => {
 
     const handleNav =() =>{
         navigation.navigate('QuizScreen', {UserName,DOB,numQuestion,difficulty})
-
     }
 
     const { result,setAnswers,setOptions,setQuestions,setUserClickedOptions, UserName, DOB, correctanswer,difficulty,numQuestion }:any = route.params as { result: any, UserName: any, DOB: any, correctanswer: any }
